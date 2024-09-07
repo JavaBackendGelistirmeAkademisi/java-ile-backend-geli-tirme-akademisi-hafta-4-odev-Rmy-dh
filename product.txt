@@ -1,0 +1,6 @@
+Product Name | Price of Product | Stock of Product
+--------------------------------------------------
+
+Desk - > 120.5 -> 16
+Book - > 10.0 -> 8
+Tea - > 42.6 -> 0
