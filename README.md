@@ -8,6 +8,7 @@ Bir e-ticaret platformunda sipariş ve envanter yönetimi yaparken Java I/O işl
 Bir e-ticaret sistemi oluşturun. Bu sistemde ürün yönetimi, müşteri işlemleri, sipariş oluşturma ve yönetimi yaparken dosya işlemleriyle (okuma, yazma) sistemi zenginleştirin. Ayrıca, hata yönetimi için exception handling yapıları kurun.
 
 **E-Ticaret İşlemleri:**
+
 - Ürün ekleme, güncelleme ve stok yönetimi işlemleri.
 - Müşteri bilgilerini yönetme ve sipariş oluşturma.
 - Siparişlerin işlenmesi ve hataların yönetimi.
@@ -28,3 +29,14 @@ Bir e-ticaret sistemi oluşturun. Bu sistemde ürün yönetimi, müşteri işlem
 - Sistemin hatasız çalışması ve exception handling yapısının doğru kurgulanmış olması.
 - Dosya işlemlerinin doğru bir şekilde uygulanması ve verilerin dosyalardan okunup yazılabilmesi.
 - Kodun okunabilirliği ve yapılan işlemlerin net bir şekilde anlaşılması.
+
+**🚨Sınıflar**
+
+- Customer : Kullanıcı bilgileri ve kullanıcı tarafından yapılan işlemleri gösterir.
+- Employee : Çalışan sınıfı çalışana ait bilgileri ve çalışanın yapabileceği methodları içerir.
+- Order : Kullanıcıya ait şiparişleri ve bunlara ait methodları içerir.
+- Person : Kullanıcı ve çalışana ait ortak nitelik ve davranışlar buradan gelir.
+- Product : Ürünlere ait nitelik ve davranışlar bu sınıf içinde tutulur. 
+- ProductManagementSystem : Ürün yönetim sisteminin çalışma yapısı burada gösterilir.
+
+

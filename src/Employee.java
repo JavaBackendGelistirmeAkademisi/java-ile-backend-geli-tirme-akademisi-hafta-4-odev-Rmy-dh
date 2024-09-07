@@ -24,10 +24,9 @@ public class Employee extends Person{
     }
 
     public static boolean checkProductExist(Product product){
-        Iterator<Product> itr = Employee.products.iterator();
 
-        while (itr.hasNext()){
-            if(itr.next().equals(product)){
+        for (Product value : Employee.products) {
+            if (value.equals(product)) {
                 return true;
             }
         }

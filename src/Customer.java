@@ -33,10 +33,9 @@ public class Customer extends Person{
         return "Your order not added";
     }
     public void getOrderList(){
-        Iterator<Order> itr = orderList.iterator();
-        while (itr.hasNext()){
+        for (Order order : orderList) {
             System.out.println("---------");
-            itr.next().print();
+            order.print();
         }
     }
     public double getTotalAmountForOrderList(){
